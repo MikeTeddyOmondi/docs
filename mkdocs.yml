@@ -1,0 +1,106 @@
+site_name: Docs | MikeTeddyOmondi
+site_url: https://docs.miketeddyomondi.dev/
+site_author: Mike Teddy Omondi
+site_description: >-
+  My tech documentation in Markdown and other professional writing
+  that serve as my daily go-to snippets and reference.
+
+# Repository
+repo_name: MikeTeddyOmondi/docs
+repo_url: https://github.com/MikeTeddyOmondi/docs
+
+# Copyright
+copyright: Copyright &copy; 2023 - 2024 Mike Teddy Omondi
+
+nav:
+  - Home: index.md
+  - Languages:
+    - Javascript/Typescript:
+      - Learning Typescript: languages/js_ts/typescript.md
+    - Rust:
+      - MongoDB Rust Driver: languages/rust/mongodb_rust_driver.md 
+      - SQLite with Rust (Rusqlite): languages/rust/rusqlite.md 
+  - Ethical Hacking:
+    - Reverse Shell C++: ethical_hacking/reverse_shell_c_plus_plus.md
+
+theme:
+  name: material
+  logo: assets/img/icon-512x512.png
+  favicon: assets/favicon.ico
+  palette:
+    # # Palette toggle for automatic mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  features:
+    - announce.dismiss
+    # - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  # Additional Markdown extensions...
+  - pymdownx.arithmatex:
+      generic: true
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:material.extensions.emoji.twemoji
+#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # More pymdownx extensions...
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra:
+#   analytics:
+#     provider: google
+#     property: G-1XXXXXX
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MikeTeddyOmondi
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/ranckosolutionsinc/docs/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/MikeTeddyOmondi

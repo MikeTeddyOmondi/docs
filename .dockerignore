@@ -1,0 +1,5 @@
+./site/
+.justfile
+.dockerignore
+Dockerfile 
+compose.yml

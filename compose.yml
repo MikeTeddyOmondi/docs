@@ -1,0 +1,14 @@
+version: '3'
+services:
+  mkdocs:
+    image: squidfunk/mkdocs-material
+    container_name: doc-snippets
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4800:8000"
+    volumes:
+      - ./:/docs
+    stdin_open: true
+    tty: true
