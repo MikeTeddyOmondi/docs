@@ -1,4 +1,4 @@
-site_name: Docs | MikeTeddyOmondi
+site_name: Docs - MikeTeddyOmondi
 site_url: https://docs.miketeddyomondi.dev/
 site_author: Mike Teddy Omondi
 site_description: >-
@@ -21,7 +21,8 @@ nav:
       - MongoDB Rust Driver: languages/rust/mongodb_rust_driver.md 
       - SQLite with Rust (Rusqlite): languages/rust/rusqlite.md 
   - Ethical Hacking:
-    - Reverse Shell C++: ethical_hacking/reverse_shell_c_plus_plus.md
+    - Exploits:  
+      - Reverse Shell Using C++: ethical_hacking/exploits/reverse_shell_c_plus_plus.md
 
 theme:
   name: material
