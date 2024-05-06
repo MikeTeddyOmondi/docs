@@ -10,17 +10,22 @@ repo_name: MikeTeddyOmondi/docs
 repo_url: https://github.com/MikeTeddyOmondi/docs
 
 # Copyright
-copyright: Copyright &copy; 2023 - 2024 Mike Teddy Omondi
+copyright: Copyleft &copy; 2023 - 2024 Mike Teddy Omondi
 
 nav:
   - Home: index.md
   - Languages:
     - Javascript/Typescript:
-      - Learning Typescript: languages/js_ts/typescript.md
+      - Learn Typescript: languages/js-ts/typescript.md
+    - Python:
+      - Learn Python: languages/python/python.md
     - Rust:
+      - Learn Rust: languages/rust/rust.md
       - MongoDB Rust Driver: languages/rust/mongodb_rust_driver.md 
       - SQLite with Rust (Rusqlite): languages/rust/rusqlite.md 
   - Ethical Hacking:
+    - Notes: 
+      - Intro: ethical_hacking/notes/intro.md
     - Exploits:  
       - Reverse Shell Using C++: ethical_hacking/exploits/reverse_shell_c_plus_plus.md
 

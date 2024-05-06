@@ -12,8 +12,19 @@ push-image:
 
 # Run Docker Container
 run-container:
-  docker stop doc-snippets && docker rm doc-snippets
   docker run -d -p 3500:3000 --restart always --name doc-snippets ranckosolutionsinc/docs:latest  
+
+# Stop Docker Container
+stop-container:
+  docker stop doc-snippets
+  
+# Remove Docker Container
+remove-container:
+  docker rm doc-snippets
+  
+# Stop & Remove Docker Container
+dispose-container:
+  docker stop doc-snippets && docker rm doc-snippets
 
 # Docker compose 
 compose:
