@@ -1,4 +1,4 @@
-site_name: Docs - MikeTeddyOmondi
+site_name: Docs
 site_url: https://docs.miketeddyomondi.dev/
 site_author: Mike Teddy Omondi
 site_description: >-
@@ -18,9 +18,9 @@ nav:
     - Javascript/Typescript:
       - Learn Typescript: languages/js-ts/typescript.md
     - Python:
-      - Learn Python: languages/python/python.md
+      - Learn Python: languages/python/learn_python.md
     - Rust:
-      - Learn Rust: languages/rust/rust.md
+      - Learn Rust: languages/rust/learn_rust.md
       - MongoDB Rust Driver: languages/rust/mongodb_rust_driver.md 
       - SQLite with Rust (Rusqlite): languages/rust/rusqlite.md 
   - Ethical Hacking:
