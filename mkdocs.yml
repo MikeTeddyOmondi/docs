@@ -15,19 +15,75 @@ copyright: Copyleft &copy; 2023 - 2024 Mike Teddy Omondi
 nav:
   - Home: index.md
   - Languages:
-    - Javascript/Typescript:
-      - Learn Typescript: languages/js-ts/typescript.md
-    - Python:
-      - Learn Python: languages/python/learn_python.md
-    - Rust:
-      - Learn Rust: languages/rust/learn_rust.md
-      - MongoDB Rust Driver: languages/rust/mongodb_rust_driver.md 
-      - SQLite with Rust (Rusqlite): languages/rust/rusqlite.md 
+      - Javascript/Typescript:
+          - Learn Typescript: languages/js-ts/typescript.md
+      - Python:
+          - Learn Python: languages/python/learn_python.md
+      - Rust:
+          - Learn Rust: languages/rust/learn_rust.md
+          - MongoDB Rust Driver: languages/rust/mongodb_rust_driver.md
+          - SQLite with Rust (Rusqlite): languages/rust/rusqlite.md
   - Ethical Hacking:
-    - Notes: 
-      - Intro: ethical_hacking/notes/intro.md
-    - Exploits:  
-      - Reverse Shell Using C++: ethical_hacking/exploits/reverse_shell_c_plus_plus.md
+      - Notes:
+          - Intro: ethical_hacking/notes/intro.md
+      - Exploits:
+          - Reverse Shell Using C++: ethical_hacking/exploits/reverse_shell_c_plus_plus.md
+  - Extra Notes:
+      - Unsorted:
+          - notes/baojs_rest_api.md
+          - notes/best_javascript_one_liners.md
+          - notes/bettercap_network_recon_and_mitm_attack_tool.md
+          - notes/cloudflared_tunnel.md
+          - notes/cracking_json_web_tokens.md
+          - notes/crow_c++_web_framework.md
+          - notes/crud_app_with_bun_and_elysia.md
+          - notes/docker_adding_wasmtime_containerd_shim.md
+          - notes/doculite_sqlite_typescript_wrapper.md
+          - notes/dokku_setup.md
+          - notes/eel_python_gui_library.md
+          - notes/eleventy_starter_ghost.md
+          - notes/ethical_hacking_guide.md
+          - notes/executing_shellcode_using_win32_api.md
+          - notes/exercism_tkn.md
+          - notes/fibonacci_spin_app.md
+          - notes/fibonnaci_rust_wasm.md
+          - notes/hotel_elmariam_notes.md
+          - notes/krakend_configuration_file.md
+          - notes/learn_rust.md
+          - notes/lian_yu_tryhackme_documentation.md
+          - notes/lua_cheatsheet.md
+          - notes/mailslurper_smtp_server_docker.md
+          - notes/metasploit_framework_ethical_hacking.md
+          - notes/mongodb_rust_driver.md
+          - notes/mongopool_nim_mongo_driver_library.md
+          - notes/nginx_configuration_file.md
+          - notes/nim_language_notes.md
+          - notes/python_libraries.md
+          - notes/python_sockets.md
+          - notes/reconnnaissance _ethical_hacking.md
+          - notes/red_team_exploitation_ethical_hacking.md
+          - notes/redis_rs_crate.md
+          - notes/reverse_shell_c_c++.md
+          - notes/rusqlite_sqlite_with_rust.md
+          - notes/rust_key_value_spin_app.md
+          - notes/rust_wasmedge_wasi_socket.md
+          - notes/setting_up_high_availability_redis_cluster_redis_gears.md
+          - notes/spin_outbound_postgresql_database.md
+          - notes/sqlx _rust_library.md
+          - notes/system_design_interview.md
+          - notes/tide_rust_restful_api.md
+          - notes/todo_flask_rest_api.md
+          - notes/todo_platformaticdb_api.md
+          - notes/turbosql_rust_crate_local_data_persistence_layer_backed_by_sqlite.md
+          - notes/ubuntu_20.04.md
+          - notes/v_lang_hello_world.md
+          - notes/vim_example.md
+          - notes/vimrc.md
+          - notes/vlang_documentation.md
+          - notes/wifi_profiles.md
+          - notes/windows_red_team_exploitation_ethical_hacking.md
+          - notes/wordpress_cms_docker_setup.md
+          - notes/wordpress_docker_compose.md
 
 theme:
   name: material
@@ -41,7 +97,7 @@ theme:
     #     name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
@@ -69,7 +125,7 @@ theme:
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
-    - navigation.sections
+    # - navigation.sections
     # - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
@@ -87,9 +143,9 @@ markdown_extensions:
   # Additional Markdown extensions...
   - pymdownx.arithmatex:
       generic: true
-#   - pymdownx.emoji:
-#       emoji_index: !!python/name:material.extensions.emoji.twemoji
-#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #   - pymdownx.emoji:
+  #       emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # More pymdownx extensions...
   - pymdownx.highlight:
       anchor_linenums: true
@@ -100,9 +156,9 @@ markdown_extensions:
   - pymdownx.superfences
 
 extra:
-#   analytics:
-#     provider: google
-#     property: G-1XXXXXX
+  #   analytics:
+  #     provider: google
+  #     property: G-1XXXXXX
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/MikeTeddyOmondi
